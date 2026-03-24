@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body >
+    <!-- //////////////////header////////////////////// -->
+    <header class="container header nav-js">
+        <nav class="navbar d-flex ">
+            <div class="logo">
+                <a href="#"><h1><i>HaSaN</i></h1></a>
+            </div>
+            <div class="nav">
+                <ul class="d-flex">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about me</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#work">my work</a></li>
+                    <li><a href="#content">content my</a></li>
+                </ul>
+            </div>
+            <div class="content d-flex">
+                <div class="night-morn d-flex">
+                    <i class="bi bi-moon-fill"></i>
+                    <i class="bi bi-brightness-high none"></i>
+                </div>
+                <div class="contact">
+                    <button type="button" class="btn"><a href="#content">contact my </a><i class="bi bi-box-arrow-in-up-right"></i></button>
+                </div>
+            </div>
+            <img id="nav" src="./assets/menu-white.png" alt="image">
+        </nav>
+    </header>
+    <!-- //////////////////header////////////////////// -->
+    <hr class="nav-js">
+    <section class="hidden">
+        <div class="nav-hidden" id="nav-hidden">
+            <div class="nav-ul-hidd">
+                <ul class="d-flex " id="ul-hidd">
+                    <li class="li-hidd" onclick="hiddUl()"><a href="#home">home</a></li>
+                    <li class="li-hidd" onclick="hiddUl()"><a href="#about">about me</a></li>
+                    <li class="li-hidd" onclick="hiddUl()"><a href="#services">services</a></li>
+                    <li class="li-hidd" onclick="hiddUl()"><a href="#work">my work</a></li>
+                    <li class="li-hidd" onclick="hiddUl()"><a href="#content">content my</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <button type="button" class="btn">contact my <i class="bi bi-box-arrow-in-up-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <!-- //////////////////home////////////////////// -->
+    <section class="home" id="home">
+        <div class="image">
+            <div class="my-image">
+                <img src="./assets/work-4.png" alt="">
+            </div>
+            <p><i>Hi! I'm Hasan Saed</i></p>
+        </div>
+        <h2>frontend web developer<p>based in Egypt.</p> </h2>
+        <div class="about-my">
+            <p>I am a frontend developer from California, USA with 10 years of experience in multiple</p>
+            <p>   companies like Microsoft, Tesla and Apple.</p>
+        </div>
+        <div class="contact btn-home">
+            <button type="button" class="active">contact me <i class="bi bi-arrow-right"></i></button>
+            <button type="button" class="btn-hover">my resume  <i class="bi bi-download"></i></button>
+        </div>
+    </section>
+    <!-- //////////////////home////////////////////// -->
+    <!-- ////////////section general//////////////// -->
+    <section class="general" id="about">
+        <span>Introduction</span>
+        <p>About me</p>
+    </section>
+    <!-- ////////////section general//////////////// -->
+    <!-- /////////////about//////////////////////// -->
+    <section class="about d-flex" >
+        <div class="about-image">
+            <img src="./assets/work-2.png" alt="image">
+            <div class="animation">
+                <img class="image-animation" src=".//assets/circular-text.png" alt="image">
+                <img class="imag-sticky" src="./assets/dev-icon.png" alt="image">
+            </div>
+        </div>
+        <div class="content-about">
+            <p>
+                I am an experienced Frontend Developer with over a decade of professional expertise in the field.
+                Throughout my career, I have had the privilege of collaborating with prestigious organizations,
+                contributing to their success and growth.
+            </p>
+            <div class="data d-grid">
+                <div class="langua card">
+                    <div>
+                        <img src="./assets/code-icon-dark.png" alt="">
+                    </div>
+                    <p>Languages</p>
+                    <span>HTML, CSS, JavaScript, React Js, bootstrap</span>
+                </div>
+                <div class="langua card">
+                    <img src="./assets/edu-icon-dark.png" alt="">
+                    <p>Education</p>
+                    <span>B. degree in Accounting</span>
+                </div>
+                <div class="langua card">
+                    <img src="./assets/project-icon-dark.png" alt="">
+                    <p>Projects</p>
+                    <span>Built more than 5 projects</span>
+                </div>
+            </div>
+            <div class="tool-use">
+                <span>Tools i use</span>
+                <div class="tools">
+                    <img src="./assets/vscode.png" alt="tool">
+                    <img src="./assets/mongodb.png" alt="tool">
+                    <img src="./assets/git.png" alt="tool">
+                    <img src="./assets/figma.png" alt="tool">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////////////about//////////////////////// -->
+    <section class="general" id="services">
+        <span>What i offer</span>
+        <p>My services</p>
+        <span class="span">
+            I am a frontend developer from California, USA with 10 years of
+            experience in multiple companies like Microsoft, Tesla and Apple.
+        </span>
+
+    </section>
+    <!-- //////////////////services////////////////////////// -->
+    <section class="services" >
+        <div class="content-service">
+            <div class="card servic-card">
+                <div>
+                    <img src="./assets/web-icon.png" alt="">
+                </div>
+                <p>Web design</p>
+                <span class="discreb">Web development is the process of building, programming...</span>
+                <span>Read more <i class="bi bi-arrow-right"></i></span>
+            </div>
+            <div class="card servic-card">
+                <div>
+                    <img src="./assets/mobile-icon.png" alt="">
+                </div>
+                <p>Mobile app</p>
+                <span class="discreb">Web development is the process of building, programming...</span>
+                <span>Read more <i class="bi bi-arrow-right"></i></span>
+            </div>
+            <div class="card servic-card">
+                <div>
+                    <img src="./assets/ui-icon.png" alt="">
+                </div>
+                <p>UI/ UX design</p>
+                <span class="discreb">Web development is the process of building, programming...</span>
+                <span>Read more <i class="bi bi-arrow-right"></i></span>
+            </div>
+            <div class="card servic-card">
+                <div>
+                    <img src="./assets/graphics-icon.png" alt="">
+                </div>
+                <p>Graphics design</p>
+                <span class="discreb">
+                    Web development is the process of building, programming...</span>
+                <span>Read more <i class="bi bi-arrow-right"></i></span>
+            </div>
+        </div>
+    </section> 
+    <!-- //////////////////services////////////////////////// -->
+    <!-- ////////////section general//////////////// -->
+    <section class="general" id="work">
+        <span>My portfolio</span>
+        <p>My latest work</p>
+        <span class="span">
+            Welcome to my web development portfolio! Explore a 
+            collection of projects showcasing my expertise in front-end development.
+        </span>
+    </section>
+    <!-- ////////////section general//////////////// -->
+    <!-- ////////////works//////////////// -->
+    <section class="work" >
+        <div class="content-work">
+            <a href="https://alkhwlyhasan777-coder.github.io/New-Vista/" class="work" target="_blank" rel="noopener">
+                <img src="./assets/work-1.png" alt="image">
+                <div class="data-work">
+                    <div>
+                        <p>Project one</p>
+                        <span>Web Design</span>
+                    </div>
+                    <div class="send-icon">
+                        <i class="bi bi-send-fill"></i>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://alkhwlyhasan777-coder.github.io/crud/"  rel="noopener" target="_blank" class="work">
+                <img src="./assets/work-3.png" alt="image">
+                <div class="data-work">
+                    <div>
+                        <p>Project  two</p>
+                        <span>Web Design</span>
+                    </div>
+                    <div class="send-icon">
+                        <i class="bi bi-send-fill"></i>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://alkhwlyhasan777-coder.github.io/project/" target="_blank" rel="noopener" class="work">
+                <img src="./assets/work-4.png" alt="image">
+                <div class="data-work">
+                    <div>
+                        <p>Project three </p>
+                        <span>Web Design</span>
+                    </div>
+                    <div class="send-icon">
+                        <i class="bi bi-send-fill"></i>
+                    </div> 
+                </div>
+            </a>
+            <div class="work">
+                <img src="./assets/work-2.png" alt="image">
+                <div class="data-work">
+                    <div>
+                        <p>Project four</p>
+                        <span>mobile app</span>
+                    </div>
+                    <div class="send-icon">
+                        <i class="bi bi-send-fill"></i>
+                    </div> 
+                </div>
+            </div> 
+        </div>
+        <div class="contact btn-work">
+            <button type="button" class="btn">Show more <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </section> 
+    <!-- ////////////works//////////////// -->
+    <!-- ////////////section general//////////////// -->
+    <section class="general" id="content">
+        <span>Connect with me</span>
+        <p>Get in touch</p>
+        <span class="span">
+            I'd love to hear from you! If you have any questions, 
+            comments or feedback, please use the form below.
+        </span>
+    </section>
+    <!-- ////////////section general//////////////// -->
+    <!-- ////////////content//////////////// -->
+    <section class="contact" >
+        <form action="get">
+            <div class="data-form">
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <textarea name="text" id="textarea" placeholder="Enter your massage"></textarea>
+        </form>
+        <div class="contact btn-work">
+            <button type="button" class="btn">Submit now <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </section> 
+    <!-- ////////////content//////////////// -->
+    <!-- ////////////section general//////////////// -->
+    <section class="general general-footer">
+        <div class="logo">
+            <a href="#"> <h1><i>HaSaN</i></h1></a>
+        </div>
+        <a href="https://mail.google.com" target="_blank" rel="noopener">alkhwlyhasan777@gmail.com</a>
+    </section>
+    <!-- ////////////section general//////////////// -->
+    <!-- ////////////scroll-to-top//////////////// -->
+    <div class="scroll-to-top">
+        <i class="bi bi-arrow-up-short" ></i>
+    </div>
+    <!-- ////////////scroll-to-top//////////////// -->
+    <!-- ////////////footer//////////////// -->
+    <footer class="footer ">
+        <hr>
+        <div class="content-footer d-flex">
+            <p>© 2026 PrebuiltUI • Distributed by ThemeWagon • All rights reserved.</p>
+            <div class="website ">
+                <span><a href="#">GitHub</a></span>
+                <span> <a href="#">LinkedIn</a></span>
+                <span> <a href="#">Twitter</a></span>
+            </div>
+        </div>
+    </footer> 
+    <!-- ////////////footer/////////////// -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
