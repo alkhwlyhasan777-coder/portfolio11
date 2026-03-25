@@ -75,6 +75,9 @@ body{
   gap: 1.2rem;
   list-style: none;
 }
+.nav-ul-hidd ul li a{
+  color: #000 !important;
+}
 .nav-ul-hidd ul li a , .nav ul li a{
   text-transform: capitalize;
   font-weight: 600;
@@ -168,14 +171,17 @@ body{
 /* /////////////////////media header && home//////////////////// */
 /* ////hidden/////////////hidden//////////////////////// */
 .hidden{
+  height: 100vh;
+  color: #000;
+  background: #fff;
+}
+.hidden{
   position: absolute;
   border: 1px solid #eeeeee2a;
   border-radius: 10px;
   margin: 1rem 2rem 1rem 10px;
   padding: 1rem 2rem 1rem 10px;
   width: 12rem;
-  height: 40vh;
-  background-color: #2630edc9;
   right: -33px;
   top: 2.5rem;
   z-index: 66;
@@ -219,7 +225,7 @@ body{
   background-color: #d310da00;
   border: 1px solid #7e7e7ea3;
   border-radius: 30px;
-  color: #fff;
+  color: #000000;
   font-size: 14px;
   text-transform: capitalize;
 }
@@ -498,7 +504,7 @@ section.about{
   color: #000;
   padding: .5rem 1rem;
   bottom: 20px;
-  left: 34px;
+  left: 50px;
 }
 .data-work  div  p{
   color: #000;
@@ -563,7 +569,7 @@ section.about{
   }
   .data-work{
     bottom: 35px !important;
-    left: 75px !important;
+    left: 100px !important;
   }
   textarea{
     width: 20rem !important;
